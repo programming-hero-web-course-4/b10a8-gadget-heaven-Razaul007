@@ -3,14 +3,15 @@ import { CartContext } from "../../Provider/CartProvider";
 import { WishlistContext } from "../../Provider/WishlistProvider";
 
 const Dashboard = () => {
-  const { cartItems, removeFromCart, calculateTotalPrice } = useContext(CartContext);
+  const { cartItems, setCartItems, removeFromCart, calculateTotalPrice } = useContext(CartContext);
   const { wishlistItems, removeFromWishlist } = useContext(WishlistContext);
   const [activeTab, setActiveTab] = useState("cart");
 
   const sortByPriceDescending = () => {
-    cartItems.sort((a, b) => b.price - a.price);
+    const sortedItems = [...cartItems].sort((a, b) => b.price - a.price);
+    setCartItems(sortedItems);
   };
-  console.log(sortByPriceDescending)
+ 
 
   return (
     <div className="p-4">
