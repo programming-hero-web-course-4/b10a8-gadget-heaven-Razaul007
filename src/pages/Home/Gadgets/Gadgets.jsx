@@ -11,7 +11,7 @@ const Gadgets = () => {
             .catch((error) => console.error("Error fetching JSON:", error));
     }, []);
 
-    console.log(products);
+    // console.log(products);
 
     return (
         <div className=' mt-20'>
@@ -27,7 +27,7 @@ const Gadgets = () => {
                             ></ProductCard>)
                         }
                     </div>
-                    
+
                 </div>
 
             </div>

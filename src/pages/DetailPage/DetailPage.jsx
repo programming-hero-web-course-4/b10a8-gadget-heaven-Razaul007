@@ -1,21 +1,21 @@
 import { useLoaderData, useParams } from "react-router-dom";
-// import { CartContext } from "../context/CartContext";
-// import { WishlistContext } from "../context/WishlistContext";
-// import data from "../data/products.json"; // Assume JSON data is stored here
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { CartContext } from "../../Provider/CartProvider";
+import { WishlistContext } from "../../Provider/WishlistProvider";
+import { useContext, useState } from "react";
 
 const DetailPage = () => {
 
 
-    const { id } = useParams(); // Get the product ID from the route
+    const { id } = useParams(); 
     const data = useLoaderData();
-    console.log(data);
+    // console.log(data);
     const product = data.find(product => product.id === parseInt(id));
-    console.log(product, id)
-    //   const { addToCart } = useContext(CartContext); // Cart context function
-    //   const { addToWishlist, isInWishlist } = useContext(WishlistContext); // Wishlist functions
-    //   const [wishlistDisabled, setWishlistDisabled] = useState(isInWishlist(product.id));
+    // console.log(product, id)
+      const { addToCart } = useContext(CartContext)
+      const { addToWishlist, isInWishlist } = useContext(WishlistContext); 
+      const [wishlistDisabled, setWishlistDisabled] = useState(isInWishlist(product.id));
 
     if (!product) {
         return <h1>Product Not Found</h1>;
@@ -70,16 +70,16 @@ const DetailPage = () => {
                         </p>
                         <div className="actions">
                             <button
-                                //   onClick={handleAddToCart}
+                                  onClick={handleAddToCart}
                                 className="btn add-to-cart"
-                            //   disabled={!product.availability}
+                              disabled={!product.availability}
                             >
                                 Add to Cart 🛒
                             </button>
                             <button
-                                //   onClick={handleAddToWishlist}
+                                  onClick={handleAddToWishlist}
                                 className="btn add-to-wishlist"
-                            //   disabled={wishlistDisabled}
+                              disabled={wishlistDisabled}
                             >
                                 ♥ Add to Wishlist
                             </button>
