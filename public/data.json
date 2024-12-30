@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "title": "Smartphone Pro X",
+      "image": "https://i.ibb.co.com/QKk4VGL/smart-Phone-X.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "A premium smartphone with advanced features and exceptional performance.",
+      "Specification": ["6.5-inch AMOLED display", "256GB storage", "Triple camera system"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "title": "Wireless Earbuds 360",
+      "image": "https://i.ibb.co.com/kxxrtzz/earbuds.jpg",
+      "category": "Accessories",
+      "price": 149,
+      "description": "Compact wireless earbuds with high-quality sound and noise cancellation.",
+      "Specification": ["Bluetooth 5.2", "Active Noise Cancellation", "Up to 8 hours battery life"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "title": "4K Smart TV",
+      "image": "https://i.ibb.co.com/g7ssG65/smartTV.jpg",
+      "category": "Televisions",
+      "price": 1299,
+      "description": "A 55-inch 4K UHD Smart TV with HDR and built-in streaming apps.",
+      "Specification": ["55-inch display", "HDR10 support", "Voice control remote"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "title": "Gaming Laptop Beast",
+      "image": "https://i.ibb.co.com/GvVQr4p/gaming-Laptop.jpg",
+      "category": "Computers",
+      "price": 1999,
+      "description": "High-performance gaming laptop with powerful specs for the ultimate gaming experience.",
+      "Specification": ["16GB RAM", "1TB SSD", "RTX 3070 GPU"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "title": "Portable Charger Max",
+      "image": "https://i.ibb.co.com/1T82bRZ/portable-Charger.jpg",
+      "category": "Accessories",
+      "price": 79,
+      "description": "A 20,000mAh portable charger with fast charging and dual USB output.",
+      "Specification": ["20,000mAh", "Fast charging support", "Dual USB output"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "title": "Smartwatch Pro",
+      "image": "https://i.ibb.co.com/R9FdcXC/smartwatch.jpg",
+      "category": "Wearables",
+      "price": 249,
+      "description": "Advanced smartwatch with fitness tracking and customizable watch faces.",
+      "Specification": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "title": "Wireless Keyboard",
+      "image": "https://i.ibb.co.com/TqvDStK/keyboard-Mouse.jpg",
+      "category": "Accessories",
+      "price": 59,
+      "description": "A stylish wireless keyboard and mouse combo for home or office use.",
+      "Specification": ["Ergonomic design", "2.4GHz wireless connectivity", "Long battery life"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "id": 8,
+      "title": "Bluetooth Speaker",
+      "image": "https://i.ibb.co.com/5FW1jzS/speaker.jpg",
+      "category": "Audio",
+      "price": 119,
+      "description": "Portable Bluetooth speaker with deep bass and 360-degree sound.",
+      "Specification": ["Bluetooth 5.0", "12 hours playtime", "Waterproof"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "title": "Gaming Headset Ultra",
+      "image": "https://i.ibb.co.com/Dk6d7ts/headset.jpg",
+      "category": "Audio",
+      "price": 99,
+      "description": "Comfortable gaming headset with surround sound and noise-canceling mic.",
+      "Specification": ["7.1 Surround sound", "Noise-canceling microphone", "RGB lighting"],
+      "availability": true,
+      "rating": 4.5
+    }
+  ]
+  
