@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="bg-[#FFF] mt-20">
+            <footer className="bg-base-100 mt-20">
                 <div className="space-y-5">
                     <div className="flex flex-col items-center" >
                         <h2 className="text-3xl font-bold">Gadget Heaven</h2>
